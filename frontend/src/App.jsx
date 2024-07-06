@@ -15,6 +15,7 @@ import Upcoming from "./pages/upcoming/Upcoming";
 import TopRatedPage from "./pages/topRated/TopRatedPage";
 import Popular from "./pages/popular/Popular";
 import WatchList from "./pages/watchlist/WatchList";
+
 const App = () => {
   const url = useSelector((state) => state.home.url);
 

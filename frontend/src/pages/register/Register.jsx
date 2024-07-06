@@ -21,6 +21,7 @@ const Register = () => {
   const [showPass, setShowPass] = useState(false);
 
   const { data, loading } = useFetch("/movie/upcoming");
+
   useEffect(() => {
     const bg =
       "https://image.tmdb.org/t/p/original" +
