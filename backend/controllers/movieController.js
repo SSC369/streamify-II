@@ -4,7 +4,7 @@ const { v4 } = require("uuid");
 module.exports.addMovie = async (req, res, next) => {
   try {
     const userId = req.user.userDetails._id;
-    console.log(req.user);
+
     const {
       id,
       mediaType,
