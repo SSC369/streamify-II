@@ -9,7 +9,7 @@ module.exports.addReview = async (req, res) => {
     await Review.create({
       reviewId,
       review,
-      username: user.name,
+      username: user.username,
       userId: user._id,
       movieId,
       datetime,
